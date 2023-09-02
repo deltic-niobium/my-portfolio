@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,100&family=Alegreya+Sans+SC:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,100&family=Alegreya+Sans+SC:ital,wght@1,900&family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap');
+*{
+    margin:0;
+    padding:80;
+
+}
+.sidebar{
+     background-color: rgb(255, 245, 185);
+   position:absolute;
+   font-family: 'Bricolage Grotesque', sans-serif;
+    height:110vh;
+    transition: transform 0.3s ease-in;
+}
+    
+
+
+.sidebar nav {
+    padding:45px;
+}
+
+.sidebar nav li{
+   list-style: none;
+   font-size:30px;
+   padding:33px 0;
+   
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+ }
+
+.main{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size:10px;
+    background-color: rgb(254, 210, 248);
+    height:150vh;
+    font-family: 'Advent Pro', sans-serif;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color:rgb(176, 176, 176);
+    height:80vh;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 15px;
+    margin-left:10px;
+}
+.hello{
+    font-size:3em;
+    font-weight:bold;
+}
+.name{
+    font-size:3em;
+    font-weight:bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+.about{
+    font-size:2.5em;
+}
+.moreabout{
+    font-size:2em;
+    margin-top: 30px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 10px;
+}
+
+
+.buttons button{
+padding:9px 42px;
+border-radius: 22px;
+color:wheat;
+background-color: blue;
+font-weight:bold;
+font-size:2em;
+margin: 3px 3px;
+}
+
+
+.buttons button:hover{
+    background-color:wheat;
+color: blue;
+}
+.btn{
+    margin-top: 1px;
+    
+    }
+
+    .btn button{
+         padding:5px 15px;
+border-radius: 22px;
+color:wheat;
+background-color: blue;
+font-weight:bold;
+font-size:2em;
+margin: 3px 3px;
+
+    }
+    .btn button:hover{
+        background-color:wheat;
+    color: blue;
+    }
+    
+    
+
+
+
+
+
+
+   
+
+.devic img{
+    height:40vh;
+
+}
+.contactform{
+    padding:0 20px;
+    
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 50px 88px;
+    width: 95vw;
+
+}
+.contactform h1{
+
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.contactform  form div{
+    padding:15px 0;
+    display:flex;
+    flex-direction: column;
+}
+.contactform  form{
+   margin: 0 4px;
+}
+.contactform  form div input{
+   /*    border-radius:7px;*/
+   margin:6px 0 0 0;
+    padding:3px;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check-input{
+width: 24px;
+margin:0 70px;
+}
+#emailHelp{
+    font-size: 15px;
+    color: mediumblue;
+    margin :0 5px;
+    padding:3px 0 0;
+
+}
+
+#contactHelp{
+    font-size: 15px;
+    color: mediumblue;
+    margin :0 5px;
+    padding:3px 0 0;
+
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 17px;
+
+}
+
+.blogcontainer h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 40px;
+    font-weight:800;
+
+
+}
+.blogcontainer{
+    margin : 0 88px;
+}
+
+
+.blogitem p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+.intro{
+    margin: 40px 88px;
+}
+.intro h2{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+    display:flex;
+    margin:12px;
+}
+
+.intro p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 15px;
+    display:flex;
+    margin:12px;
+}
+
+.skillcontainer{
+    padding:12px;
+    
+}
+.skillitem{
+    display:flex;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    
+}
+.skill{
+    height:6px;
+    width:265px;
+    background-color: darkgreen;
+    border :2px solid black;
+   
+}
+.hundred{
+    width:265px;
+    background-color: darkgreen;
+}
+.seventy5{
+    width:200px;
+    background-color: blue;
+
+}
+.fifty{
+    width:125px;
+    background-color: burlywood;
+}
+.twenty5{
+    width:63px;
+    background-color: red;
+
+}
+.hamburger{
+    position:absolute;
+    cursor: pointer;
+    top:10px;
+    left:10px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.cross{
+ margin-left: 270px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.service{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size:25px;
+    font-weight:800;
+    align-content:center;
+    width:100vw;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.service img{
+    width:50px;
+}
+@media(max-width:1615px){
+
+       /* background-color:chocolate; */
+       .devinfo{
+        font-size: 10px;
+       }
+       .devpic{
+        display:none;
+       }
+       .intro, .blogcontainer,.contactform{
+        margin:50px 8px;
+       }
+    .buttons{
+        font-size:7px;
+    }
+}
